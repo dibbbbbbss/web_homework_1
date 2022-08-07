@@ -1,0 +1,114 @@
+<!-- 1. Write HTML Script to demonstrate the use of 10 different tags  -->
+
+
+<!DOCTYPE html>
+<html lang="en">    <!-- 1. HTML TAG -->                                                            
+           
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1 {text-align:center;}
+            
+        </style>
+    <title> Assignment 1 </title>
+</head>
+<body>
+        <h1><p style="font-family:verdana"> 10 HTML TAGS AND ITS USES </h1> </p>
+        <br/>
+        <h2><p style="font-family:verdana"> 1.&#60html&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">The HTML &#60html&#62 tag is the container that contains all other HTML elements except for the !doctype tag which is located before the opening &#60html&#62 tag. All other HTML elements are nested between the &#60html&#62 and &#60/html&#62 tags.</p></h3>
+        <br\>
+        <h2><p style="font-family:verdana"> 2.&#60i&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">The HTML &#60i&#62 tag is used to put an image in an HTML document.</p></h3>
+        <br\>
+        for example:
+        <img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="32" height="32">  <!-- 2. IMG TAG -->   
+
+        <h2><p style="font-family:verdana"> 3.&#60iframe&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">The HTML &#60iframe&#62 tag is used to create an inline frame.</p></h3>
+        <br\>
+
+        for example:
+        <iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+<p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+        <h2><p style="font-family:verdana"> 4.&#60ilayer&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">The HTML &#60ilayer&#62 tag is used to create a layer that occupies space in the containing text flow. Subsequent content is placed after the space occupied by the &#60ilayer&#62.
+
+            This is in contrast to the &#60layer&#62 tag, which creates a layer above the containing text flow, allowing subsequent content to be placed under the layer just created.</p></h3>
+        <br\>
+        for example:
+        This <ilayer top = "4">word</ilayer> is shifted down, while this 
+         <ilayer left = "10">one</ilayer> is shifted over. With a negative value, 
+         words can be moved <ilayer top = "-4">up</ilayer> and to the 
+         <ilayer left = "-10">left</ilayer>.
+         <p style="color:red">Only works with Netscape 4 browsers </p> 
+
+          
+        <h2><p style="font-family:verdana"> 5.&#60img&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">The HTML &#60img&#62 tag is used to put an image in an HTML document.</p></h3>
+        <br\>
+        for example:
+        <br/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Random_pyramids.jpg" alt="HTML5 Icon" width="500 " height="500">
+        <h2><p style="font-family:verdana"> 6.&#60input&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">TThe HTML &#60input&#62 tag is used within a form to declare an input element ; a control that allows the user to input data.</p></h3>
+        <br\>
+        for example:
+        <br/>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+          </form> 
+        <h2><p style="font-family:verdana"> 7.&#60ins&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">The HTML &#60ins&#62 tag is used to indicate newly inserted text.</p></h3>
+        <br\>
+        for example:
+        <p>My favorite color is <del>blue</del> <ins>red</ins>!</p> 
+        <h2><p style="font-family:verdana"> 8.&#60isindex&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">The HTML &#60isindex&#62 tag is used for querying a document through a text field. The tag can be used anywhere but head tag is preferable. It is a deprecated tag and should not be used.</p></h3>
+        <br\>
+        <p style="color:red"> DOES NOT WORK IN HTML 5 </p> 
+        
+        <h2><p style="font-family:verdana"> 9.&#60kbd&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">The HTML &#60kbd&#62 tag defines keyboard input. It is a formating tag which changes the input text into monospace fonts.</p></h3>
+        <br\>
+        for example:
+        <br/>
+        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+        <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p> 
+        <h2><p style="font-family:verdana"> 10.&#60keygen&#62 tags </p></h2>
+        <!-- <br/> -->
+        <h3></h3><p style="font-family:verdana">The HTML &#60keygen&#62 tag is used to process Web forms with certificate management systems. The element generates a secure key and submits the public key.</p></h3>
+        <br\>
+        for example:
+        <br/>
+        <form action="/form/submit" method="get">
+            <keygen name="rsaPublicKey" keytype="RSA">
+              User's name:
+              <input type="text" name="usr_name">
+              <input type="submit">
+          </form>
+          <br/>
+                <h3>          This button sends an encrypted public key to the server    </h3>
+
+                   
+</body>
+</html>
